@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./script.js"></script>
+    <title>B.E.T.I</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-logo">
+            <img src="./beti.png" class="header-image" alt="Project Logo">
+        </div>
+        <div class="header-nav">
+            <a href="#about" class="header-nav-link">
+                ABOUT
+            </a>
+            <a href="#usage" class="header-nav-link">
+                USAGE
+            </a>
+            <a href="#footer" class="header-nav-link-special">
+                CREDITS
+            </a>
+        </div>
+        <div class="header-nav-mobile">
+            <a href="#about" class="header-nav-link">
+                ABOUT
+            </a>
+            <a href="#footer" class="header-nav-link-special">
+                CREDITS
+            </a>
+        </div>
+    </div>
+    <div class="body">
+        <div class="banner">
+            <div class="text-banner">
+                <div class="text-banner-heading" id="typing-text">Hello There! WELCOME TO B.E.T.I</div>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <div class="heading-div">
+                <div class="universal-heading">ABOUT</div>
+                <div class="universal-sub-heading">
+                    B.E.T.I. - BINARY EXTRACTION and TRANSFORMATION INTERFACE
+                </div>
+            </div>
+            <div class="mew-div">
+                <div class="about-pre">
+                    The Batch Extraction and Text Interpreter (B.E.T.I.) is an advanced system designed to streamline
+                    the process of
+                    extracting and structuring data from PDF documents. B.E.T.I. leverages cutting-edge technologies to
+                    transform
+                    unstructured text within PDFs into well-organized, structured data, enabling easier data
+                    manipulation and analysis.. This project was made using, <strong>Slim, Smalot, PHP, Python,
+                        HTML/CSS, Sweat, Determination and Hardwork </strong>
+                    B.E.T.I. revolutionizes the way businesses and organizations handle PDF documents, providing a
+                    reliable and efficient
+                    solution for transforming unstructured text into valuable, structured data.
+                </div>
+                <div class="mew-png"></div>
+            </div>
+            <div class="cool-keywords">
+                <div class="cool" style="background-color: red;">
+                    RS 15,000
+                </div>
+                <div class="cool" style="background-color: purple;">
+                    SIMPLE
+                </div>
+                <div class="cool" style="background-color: rgb(126, 207, 235);">
+                    2 DAYS
+                </div>
+                <div class="cool" style="background-color: lightgreen;">
+                    GEN ONE
+                </div>
+            </div>
+        </div>
+        <div class="about" id="usage">
+            <div class="heading-div">
+                <div class="universal-heading">USAGE</div>
+                <div class="universal-sub-heading">
+                    How to Use B.E.T.I.
+                </div>
+            </div>
+            <div class="fetch-info">
+                <div class="usage-heading"> Using beti optimally :</div>
+                <p class="about-pre usage-paragraph">
+                    To begin using B.E.T.I., open the application on your device and ensure your PDF documents are
+                    ready. Click the Upload
+                    button, navigate to your PDF folder, and select the files you want to process. Optionally, configure
+                    extraction settings
+                    if offered, adjusting as needed. Start the extraction by clicking 'Start Extraction', allowing
+                    B.E.T.I. to process the
+                    documents. Once done, review the extracted data on screen for any adjustments. Download the
+                    structured data in JSON,
+                    XML, or CSV format, and save it to your device. Use this data for analysis, reporting, or
+                    integration as required.
+                    Repeat these steps for additional PDFs as necessary.
+                </p>
+            </div>
+
+            <div class="fetch-info fetch-info-schema">
+                <div class="usage-heading"> Data Format :</div>
+                <p class="about-pre usage-paragraph">
+                    Project only works on PDF files. Use the file uploading feature to upload your PDF.
+                </p>
+                <form id="uploadForm">
+                    <label for="pdfFile" class="custom-file-upload">Upload PDF</label>
+                    <input type="file" id="pdfFile" accept="application/pdf">
+                </form>
+                <iframe id="pdfViewer"></iframe>
+                <!-- <img src="path/to/your/SchemaImage.png" class="schema-image" alt="Schema Image"> -->
+            </div>
+        </div>
+        <div class="footer" id="footer">
+            <div class="footer-nav">
+                <a class="footer-link-1 footer-link" href="#" onclick="clickPreetam()">
+                    <img src="./beti.png" class="preetam-logo" alt="Preetam Logo">
+                </a>
+                <a class="footer-link-2 footer-link" href="#" onclick="clickPokemon()">
+                    <img src="./nerds.jpg" class="poki-logo" alt="Pokemon Logo">
+                </a>
+            </div>
+            <div class="credits-1">Angry Nerds</div>
+            <div class="credits-2">
+                This project was made by Angry Nerds and is not to be replicated.
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
